@@ -1,0 +1,87 @@
+*{
+    font-family: 'Roboto',sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    transition: font-weigth 0.3s;
+}
+a:hover{
+
+    font-weight: 600;
+}
+
+
+.banner{
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+h3{
+    font-size: 24px;
+}
+
+.banner img{
+
+    background-color: black;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
+.jobs {
+    max-width: 95%;
+    margin: 5px auto;
+}
+
+
+.jobs .jobs-title {
+    background-color: #c4c4c4;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+
+.jobs .jobs-title h2{
+    font-size: 26px;
+}
+
+
+.jobs .itens{
+    margin-left: 3%;
+}
+
+.jobs .itens .desc-title{
+    margin-left: 2%;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.jobs .itens ul{
+    padding-left: 0;
+}
+.jobs .itens li{
+    margin-left: 2%;
+}
+
+
+
+
+footer{
+    background-color: black;
+    width: 100%;
+    padding: 5px 0;
+    height: 50px;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    margin: 2px 0;
+
+    font-weight: 600;
+
+}
